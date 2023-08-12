@@ -1,3 +1,8 @@
+/*
+    the complexity of binary search is:-
+        log2(n)
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

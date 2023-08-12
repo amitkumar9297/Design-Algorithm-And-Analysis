@@ -1,3 +1,8 @@
+// time complexity of merge sort
+//      n(log(n)) => in all three cases (worst,average,best)
+// the reccurence relation expressed as following :-
+//      T(n)=2T(n/2)+O(n)
+
 #include <bits/stdc++.h>
 using namespace std;
 

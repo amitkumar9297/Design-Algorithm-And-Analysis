@@ -1,3 +1,16 @@
+/*
+    the time complexity of quick sort is
+        in Best case is
+            n(log(n))
+        in worst and average case is
+            O(n^2)
+*/
+
+/*
+    the reccurrence relation is :-
+        T(n)= 2T(n/2)+O(n)
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
