@@ -53,8 +53,14 @@ void quickSort(int arr[], int l, int r)
 
 int32_t main()
 {
-    int arr[5] = {5, 7, 1, 3, 2};
-    quickSort(arr, 0, 4);
+    // int arr[5] = {5, 7, 1, 3, 2};
+    int n;
+    int arr[5];
+    for (int i = 0; i < 5; i++)
+    {
+        cin >> arr[i];
+    }
+    quickSort(arr, 0, 5);
     for (int i = 0; i < 5; i++)
     {
         cout << arr[i] << " ";
